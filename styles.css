@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3b3f45;
+  border: 25px solid white;
+  height: 100vh;
+  font-family: "Trebuchet MS", Trebuchet, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5,
+h6 {
+  font-size: 20px;
+}
+
+p,
+span {
+  font-size: 26px;
+  color: white;
+}
+
+small {
+  font-size: 16px;
+}
+
+.ba-header {
+  background-color: #4a4f56;
+  text-align: center;
+  color: #eb7e7f;
+  padding: 20px;
+}
+
+.ba-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.ba-shoping-list {
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+.ba-shoping-list [type="checkbox"] {
+  height: 26px;
+  width: 26px;
+  cursor: pointer;
+}
+
+[type="checkbox"]:checked + span {
+  text-decoration: line-through;
+  opacity: 30%;
+}
+
+.ba-shoping-list > li {
+  background-color: #88839e;
+}
+
+.ba-shoping-list > li:nth-child(2n) {
+  background: #7a7593;
+}
+
+.ba-shoping-list > li:hover {
+  background: #625e77;
+  box-shadow: inset 0px 3px 0px 0px white;
+
+  transition: all 0.1s ease-in;
+}
+
+.ba-shoping-list > li:hover label {
+  box-shadow: inset 0px -3px 0px 0px white;
+  transition: all 0.1s ease-in;
+}
+
+.ba-shoping-list > li:active {
+  background: #eb7e7f;
+}
+
+.ba-shoping-list label {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+
+.ba-shoping-list span {
+  margin-left: 10px;
+}
+
+.ba-description {
+  opacity: 60%;
+}
+
+.ba-footer {
+  padding: 20px;
+  text-align: center;
+  background: #4a4f56;
+}
+
+.ba-footer > p {
+  color: #eb7e7f;
+}
